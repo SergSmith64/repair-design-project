@@ -1,5 +1,6 @@
 // $current-font-size: 18px
 $base-color-sand: #E3B873
+$base-color-broun: #774422
 
 body
   // font-size: $current-font-size
@@ -11,25 +12,77 @@ body
 .container
   max-width: 1440px
   margin: 0 auto
-  background-color: #131313
+  background-color: #444
 
-section_top
-  margin-top: 37px
-  margin-bottom: 36px
+.header
+  background: red url('/assets/img/background_1.jpg') no-repeat center top
+  background-size: cover
+  // background-size: contain
+  height: 100vh
+  // height: 807px
+  // min-height: 807px
+  // width: 100%
+  position: relative
+
+.header-overlay
+  background-color: rgba(60,30,10,0.6)
+  position: absolute
+  left: 0
+  top: 0
+  height: 100%
+  width: 60px
+
+.text-rotate
+  font-size: 14px
+  color: $base-color-sand
+  text-transform: uppercase
+  transform: rotate(90deg)
+  background-color: green
+  display: flex
+
+.text-rotate span::after
+  content: ''
+  width: 25px
+  height: 2px
+  background-color: #fff
+  vertical-align: middle
+  margin-left: 10px
+
+.text-rotate span::before
+  content: ''
+  width: 25px
+  height: 2px
+  background-color: #fff
+  vertical-align: middle
+  margin-right: 10px
 
 h1
-  font-family: 'Yeseva One', serif;
+  font-family: 'Yeseva One', serif
   font-size: 40px
   color: #FFF
 
-nav
-  display: inline-block
-  position: relative
+.nav
+  display: flex
+  padding: 20px 62px
+  background-color: #131313
+  align-items: center
 
 .logo
   color: $base-color-sand
   font-size: 14px
-  text-transform: uppercase
+  margin: 0
+  padding: 4px 30px 0 0
+  width: 240px
+
+ul
+  display: block
+  padding: 0
+  margin: 0
+
+li
+  display: block
+  padding: 4px
+  list-style-type: none
 
 a
   color: #FFF
@@ -37,12 +90,73 @@ a
   line-height: 16px;
   text-transform: uppercase
   text-decoration: none
+  transition: all 0.6s ease
 
 a:active
   color: $base-color-sand
-a:hover
-  color: #fd3745
 
-.section_top
-  background: #DDDDDD url('/assets/img/background_1.jpg') no-repeat center top
-  height: 707px
+a:hover
+  color: $base-color-broun
+  text-decoration: underline
+
+
+.menu
+  display: flex
+  width: 100%
+  justify-content: space-around
+
+
+.menu__item
+  // margin-right: 20px
+
+.menu_phone
+  width: 200px
+  text-decoration: underline
+
+.menu_phone a
+  color: $base-color-sand
+
+.menu_phone a:hover
+  color: $base-color-broun
+
+.btn
+  border-radius: 2px
+  border: 1px solid $base-color-sand
+  background-color: $base-color-sand
+  color: #FFF
+  padding: 13px 23px
+  width: 180px
+  // height: 37px
+  text-align: center
+  display: block
+
+.btn__header
+  margin-left: auto
+
+.btn__slider
+  display: inline-block
+  margin-left: 20px
+
+.btn__border
+  display: inline-block
+  margin-left: 20px
+  background-color: rgba(0, 0, 0, 0.5)
+
+
+.slider_wrapper
+  display: flex
+  width: 50%
+  background-color: rgba(50,20,20,0.8 )
+  // flex-direction: column
+
+  
+.slider
+  // display: flex
+  flex-direction: column
+  align-item: center
+  // justify-content: flex-start
+
+main
+  background-color: $base-color-broun
+  padding-top: 20px
+  padding-bottom: 30px
