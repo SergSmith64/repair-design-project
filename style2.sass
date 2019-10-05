@@ -1,0 +1,105 @@
+.container
+	max-width: 1440px
+	margin: 0 auto
+
+// ______ TEMPLATE ______
+.wrapper
+	display: flex
+	flex-direction: column
+	min-height: 100vh
+	background-color: rgb(230, 233, 88)
+	 
+.wrapper > *
+	padding: 20px
+
+	
+.page-main
+	flex-grow: 1
+
+/* _____HEADER_____ */
+
+.page-header
+	background-color: rgb(140, 147, 240)
+
+
+.page-header nav
+	display: flex
+	flex-wrap: wrap
+	justify-content: space-between
+	align-items: center
+
+	 
+.page-header ul
+	display: flex
+	order: 1
+	width: 100%
+	margin-top: 15px
+	 
+@media screen and (min-width: 550px)
+	.page-header ul
+		width: auto
+		margin-top: 0
+
+	 
+.page-header .cta-contact
+	order: 1
+
+// ___ MAIN ____
+
+.page-main
+	display: flex
+	flex-direction: column
+	justify-content: center
+	min-height: 350px
+	background: url('./assets/img/background_1.jpg') no-repeat center / cover
+	// background-blend-mode: luminosity
+
+	 
+.page-main div
+	max-width: 400px
+	 
+@media screen and (min-width: 768px)
+	.page-main
+		padding-left: 90px
+
+/* _______FOOTER________ */
+
+.page-footer
+	display: flex
+	flex-direction: column-reverse
+	flex-grow: 0
+	 
+.page-footer ul
+	display: flex
+	font-size: 1.5rem
+	margin-bottom: 5px
+
+	 
+@media screen and (min-width: 550px)
+	.page-footer
+		flex-direction: row
+		justify-content: space-between
+		align-items: center
+	 
+.page-footer ul
+	margin-bottom: 0
+
+
+/* _____STYLE-OLD_____ */
+
+h1
+	font-family: 'Yeseva One', serif
+	font-size: 40px
+	color: #FFF
+	text-transform: uppercase
+	letter-spacing: 2px
+
+.btn
+	border-radius: 2px
+	border: 1px solid #E3B873
+	background-color: #E3B873
+	color: #FFF
+	padding: 13px 23px
+	width: 180px
+	text-align: center
+	/* display: block; */
