@@ -7,7 +7,6 @@ body {
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  background-color: red;
 }
 
 h1 {
@@ -97,38 +96,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.top-wrapper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  background-color: rgba(203, 221, 39, 0.808);
-}
-
-.top-black {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: rgba(49, 78, 206, 0.897);
-}
-
-.instagram-wrapper {
-  padding: 1px;
-}
-
-.text-rotate {
-  font-size: 14px;
-  color: #E3B873;
-  text-transform: uppercase;
-  background-color: green;
-}
-
-.header {
-  background: red url("/assets/img/background_1.jpg") no-repeat center top;
-  background-size: cover;
-  height: 85vh;
-  position: relative;
-}
-
 .menu {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -153,6 +120,72 @@ a:hover {
 
 .menu_phone a:hover {
   color: #774422;
+}
+
+.top-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.top-black {
+  -ms-flex-preferred-size: 5%;
+      flex-basis: 5%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #131313;
+}
+
+.instagram-wrapper {
+  padding: 1px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.instagram-pic {
+  text-align: center;
+  margin-left: 26px;
+}
+
+.text-rotate {
+  font-size: 14px;
+  color: #E3B873;
+  text-transform: uppercase;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.text-rotate span::after {
+  content: '';
+  width: 25px;
+  height: 20px;
+  background-color: blue;
+  vertical-align: middle;
+  margin-left: 30px;
+}
+
+.text-rotate span::before {
+  content: '';
+  width: 25px;
+  height: 20px;
+  background-color: #000;
+  vertical-align: middle;
+  margin-right: 30px;
+}
+
+.header {
+  background: red url("/assets/img/background_1.jpg") no-repeat center top;
+  background-size: cover;
+  height: 85vh;
+  -ms-flex-preferred-size: 95%;
+      flex-basis: 95%;
+  width: 100%;
+  position: relative;
 }
 
 .btn {
@@ -194,7 +227,6 @@ a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: rgba(194, 167, 13, 0.3);
 }
 
 .block_1 {
@@ -212,16 +244,14 @@ a:hover {
 }
 
 .block_1_45proc {
-  -ms-flex-preferred-size: 40%;
-      flex-basis: 40%;
+  -ms-flex-preferred-size: 45%;
+      flex-basis: 45%;
   padding: 5px;
-  background-color: blue;
 }
 
 .block_1_55proc {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
-  background-color: rgba(87, 228, 150, 0.349);
+  -ms-flex-preferred-size: 55%;
+      flex-basis: 55%;
 }
 
 .scroll-button {
@@ -256,7 +286,6 @@ a:hover {
   -ms-flex-preferred-size: 40%;
       flex-basis: 40%;
   padding: 20px;
-  background-color: rgba(77, 50, 50, 0.884);
 }
 
 .projects__item h2 {
@@ -299,7 +328,6 @@ a:hover {
   -ms-flex-preferred-size: 60%;
       flex-basis: 60%;
   padding: 20px;
-  background-color: rgba(31, 129, 88, 0.884);
 }
 
 .section_3 {
