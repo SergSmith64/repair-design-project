@@ -42,13 +42,16 @@ h1
 	font-size: 40px
 	color: #FFF
 	text-transform: uppercase
-	letter-spacing: 2px
+	letter-spacing: 1px
+	font-weight: normal
 
 h2
 	font-family: 'Yeseva One', serif
 	color: $base-color-sand
 	text-transform: uppercase
-	letter-spacing: 2px
+	// letter-spacing: 1px
+	letter-spacing: -0.07em
+	font-weight: normal
 
 h3
 	font-size: 18px
@@ -57,6 +60,19 @@ h3
 	color: $base-color-sand
 	text-transform: uppercase
 	letter-spacing: 1px
+	font-weight: normal
+
+h4
+	font-size: 14px
+	line-height: 19px
+	font-family: 'Yeseva One', serif
+	color: $base-color-sand
+	text-transform: uppercase
+	font-weight: normal
+	font-style: normal
+
+.h4_noactive
+	color: rgba(255, 255, 255, 0.3)
 
 .text_description
 	color: #fff
@@ -280,12 +296,14 @@ main
 .completed-projects
 	display: flex
 	background-color: $base-color-dark
-	padding: 40px 0px 40px 60px
+	padding: 40px 0px 40px 90px
+
 
 .projects__item
 	flex-basis: 40%
 	padding: 20px
 	background-color: rgba(77, 50, 50, 0.884)
+
 
 .projects__item h2
 	font-size: 27px
@@ -298,10 +316,27 @@ main
 	line-height: 29px
 	text-align: left
 
+.projects__list
+	display: flex
+	margin-bottom: 40px
+	// flex-direction: column
+	flex-wrap: wrap
+	// flex-wrap: wrap-reverse
+	// flex-wrap: nowrap
+
+.projects__task
+	margin-right: 54px
+	margin-bottom: 5px
+	width: 200px
+	// ____ delete COLOR ____
+	// background-color: red
+
 .projects__task p
 	font-size: 15px
 	line-height: 20px
 
+.project__arrows-and-dots
+	text-align: left
 
 
 
