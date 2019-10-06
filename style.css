@@ -7,23 +7,7 @@ body {
 .container {
   max-width: 1440px;
   margin: 0 auto;
-  background-color: #444;
-}
-
-.header {
-  background: red url("/assets/img/background_1.jpg") no-repeat center top;
-  background-size: cover;
-  height: 90vh;
-  position: relative;
-}
-
-.header-overlay {
-  background-color: #131313;
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 60px;
+  background-color: red;
 }
 
 h1 {
@@ -65,14 +49,6 @@ h4 {
 
 .h4_noactive {
   color: rgba(255, 255, 255, 0.3);
-}
-
-.text_description {
-  color: #fff;
-  line-height: 30px;
-  font-size: 22px;
-  padding-right: 57px;
-  word-spacing: 3px;
 }
 
 .nav {
@@ -119,6 +95,38 @@ a {
 a:hover {
   color: #774422;
   text-decoration: underline;
+}
+
+.top-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(203, 221, 39, 0.808);
+}
+
+.top-black {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(49, 78, 206, 0.897);
+}
+
+.instagram-wrapper {
+  padding: 1px;
+}
+
+.text-rotate {
+  font-size: 14px;
+  color: #E3B873;
+  text-transform: uppercase;
+  background-color: green;
+}
+
+.header {
+  background: red url("/assets/img/background_1.jpg") no-repeat center top;
+  background-size: cover;
+  height: 85vh;
+  position: relative;
 }
 
 .menu {
@@ -186,6 +194,7 @@ a:hover {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  background-color: rgba(194, 167, 13, 0.3);
 }
 
 .block_1 {
@@ -194,30 +203,25 @@ a:hover {
   display: flex;
 }
 
-.block_1_fix {
-  -ms-flex-preferred-size: 50px;
-      flex-basis: 50px;
-  padding: 5px;
-}
-
-.text-rotate {
-  font-size: 14px;
-  color: #E3B873;
-  text-transform: uppercase;
-  -webkit-transform: rotate(90deg);
-          transform: rotate(90deg);
-  margin-top: 90px;
+.text_description {
+  color: #fff;
+  line-height: 30px;
+  font-size: 22px;
+  padding-right: 57px;
+  word-spacing: 3px;
 }
 
 .block_1_45proc {
   -ms-flex-preferred-size: 40%;
       flex-basis: 40%;
   padding: 5px;
+  background-color: blue;
 }
 
 .block_1_55proc {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
+  background-color: rgba(87, 228, 150, 0.349);
 }
 
 .scroll-button {

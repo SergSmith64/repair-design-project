@@ -13,28 +13,8 @@ body
 .container
 	max-width: 1440px
 	margin: 0 auto
-	background-color: #444
-
-.header
-	background: red url('/assets/img/background_1.jpg') no-repeat center top
-	background-size: cover
-	// background-size: contain
-	height: 90vh
-	// height: 807px
-	// min-height: 807px
-	// width: 100%
-	position: relative
-
-
-.header-overlay
-	background-color: $base-color-dark
 	// ____ delete COLOR ____
-	// background-color: rgba(60,30,10,0.6)
-	position: absolute
-	left: 0
-	top: 0
-	height: 100%
-	width: 60px
+	background-color: red
 
 
 h1
@@ -74,13 +54,8 @@ h4
 .h4_noactive
 	color: rgba(255, 255, 255, 0.3)
 
-.text_description
-	color: #fff
-	line-height: 30px
-	font-size: 22px
-	padding-right: 57px
-	word-spacing: 3px
 
+// ______ NAVIGATION _______
 
 .nav
 	display: flex
@@ -117,10 +92,84 @@ a
 // a:active
 // 	// color: $base-color-sand
 
-
 a:hover
 	color: $base-color-broun
 	text-decoration: underline
+
+
+
+// ______ TOP _______
+
+.top-wrapper
+	display: flex
+	// ____ delete COLOR ____
+	background-color: rgba(203, 221, 39, 0.808)
+
+.top-black
+	justify-content: center
+	// ____ delete COLOR ____
+	background-color: rgba(49, 78, 206, 0.897)
+
+// ______ INSTAGRAM ________
+
+.instagram-wrapper
+	// flex-basis: 50px
+	// flex-basis: 6%
+	padding: 1px
+	// ____ delete COLOR ____
+	// background-color: red
+
+.text-rotate
+	font-size: 14px
+	color: $base-color-sand
+	text-transform: uppercase
+	// ______ NOT WORK ______
+	// transform: rotate(90deg)
+	// ______ NOT WORK ______
+	// margin-top: 90px
+	// ____ delete COLOR ____
+	background-color: green
+	// display: flex
+	// z-index: 100 !important
+	// position: absolute
+
+// .text-rotate span::after
+// 	content: ''
+// 	width: 25px
+// 	height: 2px
+// 	background-color: #fff
+// 	vertical-align: middle
+// 	margin-left: 10px
+
+// .text-rotate span::before
+// 	content: ''
+// 	width: 25px
+// 	height: 2px
+// 	background-color: #fff
+// 	vertical-align: middle
+// 	margin-right: 10px
+
+// ________ H E A D E R _________
+
+.header
+	background: red url('/assets/img/background_1.jpg') no-repeat center top
+	background-size: cover
+	// background-size: contain
+	height: 85vh
+	// height: 807px
+	// min-height: 807px
+	// width: 100%
+	position: relative
+
+
+
+
+
+
+
+
+
+
 
 
 .menu
@@ -190,69 +239,46 @@ a:hover
 .block_1_wraper
 	display: flex
 	height: 70vh
+	// margin-left: 70px
 	justify-content: center
 	flex-direction: column
 	// ____ delete COLOR ____
-	// background-color: rgba(194, 167, 13, 0.849)
+	background-color: rgba(194, 167, 13, 0.3)
 
 // ______ центрируется по вертикали _______
 .block_1
+	// _____ возвращаю ОСЬ как горизонтальную _____
 	display: flex
+	// ____ НЕ ОБЯЗАТЕЛЬНО ____
+	// flex-direction: row
+
+.text_description
+	color: #fff
+	line-height: 30px
+	font-size: 22px
+	padding-right: 57px
+	word-spacing: 3px
 
 
-.block_1_fix
-	flex-basis: 50px
-	padding: 5px
-	// ____ delete COLOR ____
-	// background-color: red
-
-
-
-// ______Text - INSTAGRAM ________
-
-.text-rotate
-	font-size: 14px
-	color: $base-color-sand
-	text-transform: uppercase
-	transform: rotate(90deg)
-	margin-top: 90px
-	// ____ delete COLOR ____
-	// background-color: green
-	// display: flex
-	// z-index: 100 !important
-	// position: absolute
-
-// .text-rotate span::after
-// 	content: ''
-// 	width: 25px
-// 	height: 2px
-// 	background-color: #fff
-// 	vertical-align: middle
-// 	margin-left: 10px
-
-// .text-rotate span::before
-// 	content: ''
-// 	width: 25px
-// 	height: 2px
-// 	background-color: #fff
-// 	vertical-align: middle
-// 	margin-right: 10px
-
-
-// _____ TOP HEADER TEXT _______
 
 .block_1_45proc
 	flex-basis: 40%
 	padding: 5px
 	// ____ delete COLOR ____
-	// background-color: blue
+	background-color: blue
 
 .block_1_55proc
 	flex-basis: 50%
 	// ____ delete COLOR ____
-	// background-color: rgba(87, 228, 150, 0.349)
+	background-color: rgba(87, 228, 150, 0.349)
 
-// __________________
+
+
+
+
+
+
+// ________ КНОПКА __________
 
 .scroll-button
 	display: inline-block
@@ -286,7 +312,7 @@ a:hover
 	text-transform: uppercase
 	color: #FFF
 
-// __________________
+// ____________________________________________________________
 
 main
 	// background-color: $base-color-broun
