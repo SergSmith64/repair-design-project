@@ -332,12 +332,53 @@ a:hover {
 
 .online-control {
   padding: 50px;
-  background-color: rgba(166, 204, 76, 0.829);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
-.section_4 {
+.online-control__top {
+  background: rgba(54, 12, 12, 0.856) no-repeat center top;
+  height: 390px;
+}
+
+.online-control h3 {
+  font-size: 18px;
+  line-height: 25px;
+  font-family: 'Yeseva One', serif;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: normal;
+}
+
+.online-control__bottom {
+  background-color: #6dcce9;
+  height: 450px;
+}
+
+.online-control__text {
+  text-align: center;
+  color: #000;
+}
+
+.online-control__text p {
+  line-height: 2.7;
+  font-style: normal;
+}
+
+.types-of-repair {
   padding: 30px;
-  background-color: #4cb7d8;
+  background-color: rgba(167, 224, 101, 0.8);
+}
+
+.types-of-repair__info-redecorating {
+  background: red url("/assets/img/info-redecorating-small.jpg") no-repeat center top;
+  background-size: 392px 421px;
 }
 
 .title {
