@@ -402,12 +402,22 @@ a:hover {
 .form-main {
   padding-top: 20px;
   padding-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-main__building {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
 }
 
 .form-main__form {
   background-color: #131313;
   color: #FFF;
   padding: 25px;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
 }
 
 .wildest-fantasies {
