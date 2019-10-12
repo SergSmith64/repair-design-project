@@ -179,7 +179,7 @@ a:hover {
 }
 
 .header {
-  background: red url("/assets/img/back-1-room.jpg") no-repeat center top;
+  background: red url("./assets/img/back-1-room.jpg") no-repeat center top;
   background-size: cover;
   height: 85vh;
   -ms-flex-preferred-size: 95%;
@@ -421,7 +421,30 @@ a:hover {
 }
 
 .wildest-fantasies {
-  padding-top: 15px;
+  background: red url("./assets/img/fantasies-back-small.jpg") no-repeat center center;
+  width: 100%;
+  padding: 35px;
+}
+
+.design-project {
+  background-color: lightgreen;
+  text-align: center;
+}
+
+.design-project__wrapper {
+  background-color: pink;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.design-project__item {
+  background-color: grey;
+  padding: 20px;
+  margin: 20px;
 }
 
 .title {
