@@ -421,18 +421,27 @@ a:hover {
 }
 
 .wildest-fantasies {
-  background: red url("./assets/img/fantasies-back-small.jpg") no-repeat center center;
-  width: 100%;
-  padding: 35px;
+  background: darkred url("./assets/img/fantasies-group-back.png") no-repeat center center;
+  background-size: contain;
+  width: 1440px;
+  height: 100%;
+  padding: 1px;
 }
 
 .design-project {
   background-color: lightgreen;
+}
+
+.design-project h2 {
+  text-align: center;
+}
+
+.design-project p {
   text-align: center;
 }
 
 .design-project__wrapper {
-  background-color: pink;
+  background-color: #444;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -441,10 +450,45 @@ a:hover {
           justify-content: center;
 }
 
-.design-project__item {
-  background-color: grey;
+.design-project__mini {
+  background: red url("./assets/img/info-redecorating-small.jpg") no-repeat center top;
+  background-color: red;
+  width: 392px;
+  height: auto;
   padding: 20px;
-  margin: 20px;
+  margin: 3px;
+}
+
+.design-project__standart {
+  background: red url("./assets/img/info-designer-small.jpg") no-repeat center top;
+  background-color: red;
+  width: 392px;
+  height: auto;
+  padding: 20px;
+  margin: 3px;
+}
+
+.design-project__full {
+  background: red url("./assets/img/info-redecorating-small.jpg") no-repeat center top;
+  background-color: blue;
+  width: 392px;
+  height: auto;
+  padding: 20px;
+  margin: 3px;
+}
+
+.design-project__info {
+  background-color: #fff;
+  margin: 25px;
+  margin-top: 300px;
+  padding: 12px;
+  color: #000;
+}
+
+.footer {
+  background-color: #5f4b13;
+  padding-top: 50px;
+  padding-bottom: 70px;
 }
 
 .title {
