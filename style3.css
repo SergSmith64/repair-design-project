@@ -4,6 +4,8 @@
 
 body {
   background-color: grey;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .wrapper {
@@ -22,13 +24,23 @@ body {
 
 .separator {
   width: 100%;
-  height: 20px;
-  background: #ffffff;
+  height: 50px;
+  background: rgba(230, 54, 54, 0.35);
 }
 
-@media (max-width: 960px) {
-  .main-image {
-    width: 100%;
-  }
+.new-block {
+  padding-top: 600px;
+  padding-bottom: 600px;
+  position: relative;
+  background-color: lightyellow;
+}
+
+.new-block-wrapper {
+  background: red url("./assets/img/fantasies-group-back.png") no-repeat center center;
+  position: absolute;
+  background-color: rgba(47, 100, 214, 0.918);
+  width: 100%;
+  height: 100%;
+  top: 300px;
 }
 /*# sourceMappingURL=style3.css.map */
