@@ -359,31 +359,41 @@ a:hover {
   background-color: rgba(196, 44, 170, 0.884);
 }
 
-.online-control {
+.online-control--new {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.online-control--new__wrapper {
   position: relative;
-  background: rgba(172, 48, 48, 0.815) url("./assets/img/back-2-building-364.jpg") no-repeat center center;
-  padding-top: 200px;
-  padding-bottom: 500px;
+  background: rgba(172, 48, 48, 0.5) url("./assets/img/online-control-620.png") no-repeat center top;
+  padding-top: 25px;
+  padding-bottom: 140px;
+  margin-top: -3px;
 }
 
-.online-control__wrapper {
-  position: absolute;
-  background: url("./assets/img/online-control-room.jpg") no-repeat center center;
-  width: 100%;
-  height: 100%;
-  top: 100px;
+.online-control__button-center {
+  text-align: center;
+  padding-top: 190px;
 }
 
-.indent-item {
-  margin-top: 480px;
-  margin-bottom: 300px;
+.online-control__content {
+  background-color: rgba(91, 20, 172, 0.7);
 }
 
-.form_1 {
+#form_1 {
+  background-color: pink;
+}
+
+.form_1__wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: pink;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .types-of-repair {
