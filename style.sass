@@ -1,7 +1,8 @@
 // $current-font-size: 18px
 $base-color-sand: #E3B873
-$base-color-broun: #774422  // ___ ??? ___
+$base-color-broun: #774422  // ___ HOVER ____
 $base-color-dark: #131313
+$base-color-gray: rgba(255, 255, 255, 0.3)
 
 body
 	// font-size: $current-font-size
@@ -58,7 +59,27 @@ h4
 	font-style: normal
 
 .h4_noactive
-	color: rgba(255, 255, 255, 0.3)
+	color: $base-color-gray
+
+// _____ ОБЩИЕ КЛАССЫ _____
+
+.text-center
+	text-align: center
+	padding-top: 1px
+	padding-bottom: 1px
+	color: #000
+
+.text-center p
+	font-family: 'FuturaBookC', sans-serif
+	font-size: 20px
+	line-height: 34px
+	// line-height: 2.7
+	font-style: normal
+
+.icon-center
+    text-align: center
+    padding-top: 12px
+    padding-bottom: 2px
 
 
 // ______ NAVIGATION _______
@@ -325,6 +346,9 @@ main
 	// padding-top: 20px
 	// padding-bottom: 30px
 
+
+	// ____ block_2 ______________
+
 .completed-projects
 	display: flex
 	background-color: $base-color-dark
@@ -365,7 +389,7 @@ main
 .project__arrows-and-dots
 	text-align: left
 
-
+// _______ SLIDER __________________
 
 .projects__slider
 	flex-basis: 60%
@@ -373,48 +397,42 @@ main
 	// ____ delete COLOR ____
 	// background-color: rgba(31, 129, 88, 0.884)
 
-// ________ section_3 _________
+.projects__slider-menu
+	padding-top: 4px
+	padding-bottom: 4px
+	// ____ delete COLOR ____
+	background-color: rgba(196, 44, 170, 0.884)
+
+
+// ____ block_3 _____________
 
 .online-control
-	padding: 50px
-	// background-color: $base-color-dark
+	position: relative
+	background: rgba(172, 48, 48, 0.815) url('./assets/img/back-2-building-364.jpg') no-repeat center center
+	padding-top: 200px
+	padding-bottom: 500px
+
+.online-control__wrapper
+	position: absolute
+	background: url('./assets/img/online-control-room.jpg') no-repeat center center
+	width: 100%
+	height: 100%
+	top: 100px
+	// h3
+	// 	margin-top: -5px
+	
+.indent-item
+	margin-top: 480px
+	margin-bottom: 300px
+
+.form_1
 	display: flex
-	flex-direction: column
-	justify-content:center
-
-.online-control__top
-	// background: $base-color-dark no-repeat center top
-	background: rgba(54, 12, 12, 0.856) no-repeat center top
-	height: 390px
-
-.online-control h3
-	font-size: 18px
-	line-height: 25px
-	font-family: 'Yeseva One', serif
-	color: #FFF
-	text-transform: uppercase
-	letter-spacing: 
-	text-align: center
-	font-weight: normal
-
-.online-control img
-	// width: 100%
-
-.online-control__bottom
-	background-color: #6dcce9
-	height: 450px
-
-.online-control__text
-	text-align: center
-	color: #000
-
-.online-control__text p
-	line-height: 2.7
-	font-style: normal
+	// ____ delete COLOR ____
+	background-color: pink
 
 
 
-// ________section_4__________
+// ____ block_4 __________________
 
 .types-of-repair
 	display: flex
@@ -550,6 +568,16 @@ main
 	background-color: #5f4b13
 	padding-top: 50px
 	padding-bottom: 70px
+
+
+// ________ ВРЕМЕННО - ДЛЯ РАЗРАБОТКИ __________
+
+.block-separator
+    padding: 30px
+    margin-top: 50px
+    margin-bottom: 50px
+    background-color: rgba(77, 224, 109, 0.51)
+
 
 
 // _____ MUSOR ______
