@@ -285,7 +285,7 @@ a:hover {
 
 .scroll-button {
   display: inline-block;
-  margin-top: 46px;
+  margin-top: 108px;
   text-align: center;
   padding: 20px 35px;
   background-color: #131313;
@@ -354,9 +354,25 @@ a:hover {
 }
 
 .projects__slider-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   padding-top: 4px;
   padding-bottom: 4px;
-  background-color: rgba(196, 44, 170, 0.884);
+}
+
+.projects__slider-menu li {
+  font-family: 'Yeseva One', serif;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(255, 255, 255, 0.3);
+  text-transform: uppercase;
+  margin-right: 20px;
+  margin-bottom: 8px;
+}
+
+.projects__slider-menu li:first-child {
+  color: #E3B873;
 }
 
 .online-control--new {
@@ -366,7 +382,7 @@ a:hover {
 
 .online-control--new__wrapper {
   position: relative;
-  background: rgba(172, 48, 48, 0.5) url("./assets/img/online-control-620.png") no-repeat center top;
+  background: url("./assets/img/online-control-620.png") no-repeat center top;
   padding-top: 25px;
   padding-bottom: 140px;
   margin-top: -3px;
@@ -381,8 +397,17 @@ a:hover {
   background-color: rgba(91, 20, 172, 0.7);
 }
 
-#form_1 {
-  background-color: pink;
+#form_1 input {
+  height: 52px;
+}
+
+#form_1 p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+#form_1 input {
+  background-color: rgba(57, 55, 179, 0.541);
 }
 
 .form_1__wrapper {
@@ -392,6 +417,17 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.form-item,
+.form-submit {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.form-item {
   padding-top: 12px;
   padding-bottom: 12px;
 }
