@@ -482,8 +482,8 @@ a:hover {
 }
 
 .wildest-fantasies {
-  padding-top: 600px;
-  padding-bottom: 600px;
+  padding-top: 430px;
+  padding-bottom: 630px;
   position: relative;
   background-color: lightyellow;
 }
@@ -494,7 +494,6 @@ a:hover {
   width: 100%;
   height: 100%;
   top: 300px;
-  background-color: rgba(47, 100, 214, 0.918);
 }
 
 .wildest-fantasies-wrapper-text {
@@ -504,15 +503,16 @@ a:hover {
 
 .design-project {
   margin-top: 300px;
-  background-color: lightgreen;
 }
 
-.design-project h2 {
+.design-project h3 {
   text-align: center;
+  color: #131313;
 }
 
 .design-project p {
   text-align: center;
+  color: #131313;
 }
 
 .design-project__wrapper {
@@ -523,6 +523,7 @@ a:hover {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-top: 30px;
 }
 
 .design-project__mini {
@@ -561,14 +562,58 @@ a:hover {
 }
 
 .steps-to-the-goal {
-  padding-top: 20px;
-  padding-bottom: 30px;
-  background-color: rgba(28, 185, 212, 0.918);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 100px;
+  background-color: #000;
 }
 
-.our-ream {
-  padding-top: 30px;
-  padding-bottom: 30px;
+.steps-to-the-goal__left {
+  -ms-flex-preferred-size: 38%;
+      flex-basis: 38%;
+  background-color: #222;
+}
+
+.steps-to-the-goal__left h3 {
+  text-align-last: left;
+  color: #E3B873;
+}
+
+.steps-to-the-goal__left h3 span {
+  color: #FFF;
+}
+
+.steps-to-the-goal__left p {
+  margin-right: 20%;
+}
+
+.text-top {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.steps-to-the-goal__right {
+  -ms-flex-preferred-size: 62%;
+      flex-basis: 62%;
+  background-color: rgba(208, 85, 22, 0.48);
+}
+
+.steps-to-the-goal__numbers {
+  font-size: 15px;
+  line-height: 18px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.number-item span {
+  font-family: 'Yeseva One', serif;
+  font-style: 15px;
+  color: green;
+}
+
+.our-team {
+  padding: 30px 100px;
   background-color: rgba(113, 37, 201, 0.836);
 }
 
