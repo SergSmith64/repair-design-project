@@ -343,8 +343,9 @@ a:hover {
   line-height: 20px;
 }
 
-.project__arrows-and-dots {
+.arrows-and-dots {
   text-align: left;
+  margin-top: 92px;
 }
 
 .projects__slider {
@@ -541,8 +542,7 @@ a:hover {
 }
 
 .design-project__mini {
-  background: red url("./assets/img/info-redecorating-small.jpg") no-repeat center top;
-  background-color: red;
+  background: url("./assets/img/info-redecorating-small.jpg") no-repeat center top;
   width: 392px;
   height: auto;
   padding: 20px;
@@ -550,8 +550,7 @@ a:hover {
 }
 
 .design-project__standart {
-  background: red url("./assets/img/info-designer-small.jpg") no-repeat center top;
-  background-color: red;
+  background: url("./assets/img/info-designer-small.jpg") no-repeat center top;
   width: 392px;
   height: auto;
   padding: 20px;
@@ -559,8 +558,7 @@ a:hover {
 }
 
 .design-project__full {
-  background: red url("./assets/img/info-redecorating-small.jpg") no-repeat center top;
-  background-color: blue;
+  background: url("./assets/img/info-redecorating-small.jpg") no-repeat center top;
   width: 392px;
   height: auto;
   padding: 20px;
@@ -580,13 +578,14 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
   padding: 450px 100px 0 100px;
-  background-color: #000;
+  background-color: #131313;
 }
 
 .steps-to-the-goal__left {
+  margin-top: -110px;
   -ms-flex-preferred-size: 38%;
       flex-basis: 38%;
-  background-color: #222;
+  background-color: #131313;
 }
 
 .steps-to-the-goal__left h3 {
@@ -599,31 +598,46 @@ a:hover {
 }
 
 .steps-to-the-goal__left p {
-  margin-right: 20%;
-}
-
-.text-top {
-  text-transform: uppercase;
-  font-size: 18px;
+  font-size: 15px;
+  line-height: 37px;
+  margin-right: 23%;
 }
 
 .steps-to-the-goal__right {
   -ms-flex-preferred-size: 62%;
       flex-basis: 62%;
-  background-color: rgba(208, 85, 22, 0.48);
+  background-color: #131313;
 }
 
 .steps-to-the-goal__numbers {
-  font-size: 15px;
-  line-height: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  font-size: 15px;
+  line-height: 18px;
+  flex-wrap: wrap;
+}
+
+.number-item {
+  width: 33%;
+  padding-bottom: 50px;
+}
+
+.number-item h4 {
+  text-decoration: underline;
+}
+
+.number-item p {
+  padding-right: 110px;
 }
 
 .number-item span {
   font-family: 'Yeseva One', serif;
   font-style: 15px;
-  color: green;
+  color: #5A5A5A;
+  text-decoration: underline;
 }
 
 .our-team {
