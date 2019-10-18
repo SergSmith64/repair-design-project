@@ -2,6 +2,8 @@
 $base-color-sand: #E3B873
 $base-color-broun: #774422  // ___ HOVER ____
 $base-color-dark: #131313
+$base-color-light: #959595
+$base-color-black: #1C1C1C
 $base-color-gray: rgba(255, 255, 255, 0.3)
 
 body
@@ -681,41 +683,99 @@ main
 // _____section_9_______ Our Team ____
 
 .our-team
-	padding: 30px 100px
+	padding: 30px 0px
+	background-color: $base-color-dark
+	margin-bottom: -480px
 	// ____ delete COLOR ____
-	background-color: rgba(113, 37, 201, 0.36)
+	// background-color: rgba(113, 37, 201, 0.36)
+	p
+		color: #000
+		span
+			color: #FFF
 
 .our-team__wrapper
 	display: flex
 	justify-content: space-around
+	padding: 0 200px 22px 170px
 	// ____ delete COLOR ____
-	background-color: rgba(121, 144, 44, 0.664)
-	padding-top: 12px
-	padding-bottom: 12px
+	// background-color: rgba(121, 144, 44, 0.664)
+
 
 .our-team__item
-	padding-top: 12px
-	padding-bottom: 18px
-	background-color: rgba(61, 199, 91, 0.705)
+	padding-top: 10px
+	padding-bottom: 10px
+	// ____ delete COLOR ____
+	// background-color: rgba(61, 199, 91, 0.705)
 
 // __________ section_10 _____ Our Clients _______
 .our-clients
-	padding: 100px
-	// ____ delete COLOR ____
-	background-color: #CCC
+	padding-top: 504px
+	padding-left: 100px
+	padding-right: 100px
+	padding-bottom: 370px
+	background-color: #fbf8f4
+	h3
+		color: $base-color-dark
 
 .our-clients__wrapper
 	display: flex
 	justify-content: space-around
 	// ____ delete COLOR ____
-	background-color: rgba(141, 44, 44, 0.664)
+	// background-color: rgba(141, 44, 44, 0.664)
 	padding-top: 12px
 	padding-bottom: 12px
 
 .our-clients__item
+	max-width: 376px
+	padding: 20px
+	background-color: #fff
+	color: $base-color-light
+	box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2)
+	margin-left: 20px
+	margin-right: 20px
 	// ____ delete COLOR ____
-	background-color: rgba(105, 78, 206, 0.774)
+	// background-color: rgba(105, 78, 206, 0.774)
+	p
+		font-size: 15px
+		line-height: 27px
 
+.our-clients__face
+	display: flex
+	align-items: center
+	span
+		font-family: Yeseva One
+		font-size: 18px
+		line-height: 23px
+		color: $base-color-dark
+		margin-left: 20px
+
+
+.our-clients__pic
+	width: 293px
+	height: 55px
+	margin-left: -20px
+	margin-bottom: -46px
+	box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+	// ____ delete COLOR ____
+	// background-color: rgba(53, 26, 85, 0.87)
+
+// ________ section-11 _________
+
+.have-any-questions
+	background-color: $base-color-black
+	padding-top: 37px
+
+.have-any-questions__wrapper
+	margin-left: 288px
+	margin-right: 288px
+	margin-top: -270px
+	background-color: $base-color-dark
+	h3
+		margin-bottom: 34px
+	
+.have-any-questions__field
+	padding-left: 183px
+	padding-right: 183px
 
 // ______ FOOTER ______
 .footer

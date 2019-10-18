@@ -627,8 +627,17 @@ a:hover {
 }
 
 .our-team {
-  padding: 30px 100px;
-  background-color: rgba(113, 37, 201, 0.36);
+  padding: 30px 0px;
+  background-color: #131313;
+  margin-bottom: -480px;
+}
+
+.our-team p {
+  color: #000;
+}
+
+.our-team p span {
+  color: #FFF;
 }
 
 .our-team__wrapper {
@@ -637,20 +646,24 @@ a:hover {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-color: rgba(121, 144, 44, 0.664);
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding: 0 200px 22px 170px;
 }
 
 .our-team__item {
-  padding-top: 12px;
-  padding-bottom: 18px;
-  background-color: rgba(61, 199, 91, 0.705);
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .our-clients {
-  padding: 100px;
-  background-color: #CCC;
+  padding-top: 504px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 370px;
+  background-color: #fbf8f4;
+}
+
+.our-clients h3 {
+  color: #131313;
 }
 
 .our-clients__wrapper {
@@ -659,13 +672,71 @@ a:hover {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  background-color: rgba(141, 44, 44, 0.664);
   padding-top: 12px;
   padding-bottom: 12px;
 }
 
 .our-clients__item {
-  background-color: rgba(105, 78, 206, 0.774);
+  max-width: 376px;
+  padding: 20px;
+  background-color: #fff;
+  color: #959595;
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.our-clients__item p {
+  font-size: 15px;
+  line-height: 27px;
+}
+
+.our-clients__face {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.our-clients__face span {
+  font-family: Yeseva One;
+  font-size: 18px;
+  line-height: 23px;
+  color: #131313;
+  margin-left: 20px;
+}
+
+.our-clients__pic {
+  width: 293px;
+  height: 55px;
+  margin-left: -20px;
+  margin-bottom: -46px;
+  -webkit-box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+          box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+}
+
+.have-any-questions {
+  background-color: #1C1C1C;
+  padding-top: 37px;
+}
+
+.have-any-questions__wrapper {
+  margin-left: 288px;
+  margin-right: 288px;
+  margin-top: -270px;
+  background-color: #131313;
+}
+
+.have-any-questions__wrapper h3 {
+  margin-bottom: 34px;
+}
+
+.have-any-questions__field {
+  padding-left: 183px;
+  padding-right: 183px;
 }
 
 .footer {
