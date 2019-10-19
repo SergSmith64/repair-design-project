@@ -733,11 +733,19 @@ a:hover {
 }
 
 .have-any-questions {
-  background-color: #1C1C1C;
+  background: url("./assets/img/back-3-footer.jpg") no-repeat center center;
+  background-size: cover;
   padding-top: 37px;
 }
 
 .have-any-questions__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-left: 288px;
   margin-right: 288px;
   margin-top: -270px;
@@ -753,10 +761,15 @@ a:hover {
   padding-right: 183px;
 }
 
-.footer {
-  background-color: #5f4b13;
-  padding-top: 50px;
-  padding-bottom: 70px;
+.map-wrap {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  position: relative;
+}
+
+.map-wrap img {
+  width: 100%;
 }
 
 .block-separator {
