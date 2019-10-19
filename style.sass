@@ -397,9 +397,51 @@ main
 
 .projects__slider
 	flex-basis: 60%
-	padding: 20px
+	// padding: 20px				// ___ПОКА УБРАЛ___
 	// ____ delete COLOR ____
 	// background-color: rgba(31, 129, 88, 0.884)
+
+// ________ Luffi Slider ________
+#slider
+	overflow: hidden
+	width: 806px
+	height: 482px
+	border: 2px solid red
+	background-color: aqua
+
+#slider-content
+	display: flex
+	width: 1358px
+	// height: 482px
+	height: 380px
+	// transition: transform 700ms linear
+	// ____ delete COLOR ____
+	// background-color: pink
+
+.slide
+	width: 679px
+	// height: 482px
+	height: 380px
+
+.slide-1
+	background-color: rgba(139, 27, 27, 0.533)
+
+.slide-2
+	background-color: rgba(32, 90, 145, 0.521)
+
+.first-position
+	transform: translate3d(0px, 0px, 0px)
+
+.second-position
+	transform: translate3d(-679px, 0px, 0px)
+
+.slider-button__wrapper
+	// margin-top: -265px
+	margin-top: -35px
+
+#button
+	background-color: none
+
 
 .projects__slider-menu
 	display: flex

@@ -351,7 +351,53 @@ a:hover {
 .projects__slider {
   -ms-flex-preferred-size: 60%;
       flex-basis: 60%;
-  padding: 20px;
+}
+
+#slider {
+  overflow: hidden;
+  width: 806px;
+  height: 482px;
+  border: 2px solid red;
+  background-color: aqua;
+}
+
+#slider-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1358px;
+  height: 380px;
+}
+
+.slide {
+  width: 679px;
+  height: 380px;
+}
+
+.slide-1 {
+  background-color: rgba(139, 27, 27, 0.533);
+}
+
+.slide-2 {
+  background-color: rgba(32, 90, 145, 0.521);
+}
+
+.first-position {
+  -webkit-transform: translate3d(0px, 0px, 0px);
+          transform: translate3d(0px, 0px, 0px);
+}
+
+.second-position {
+  -webkit-transform: translate3d(-679px, 0px, 0px);
+          transform: translate3d(-679px, 0px, 0px);
+}
+
+.slider-button__wrapper {
+  margin-top: -35px;
+}
+
+#button {
+  background-color: none;
 }
 
 .projects__slider-menu {
