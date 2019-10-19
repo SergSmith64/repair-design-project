@@ -365,8 +365,12 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 1358px;
+  width: 2037px;
   height: 380px;
+  -webkit-transition: -webkit-transform 700ms linear;
+  transition: -webkit-transform 700ms linear;
+  transition: transform 700ms linear;
+  transition: transform 700ms linear, -webkit-transform 700ms linear;
 }
 
 .slide {
@@ -375,11 +379,15 @@ a:hover {
 }
 
 .slide-1 {
-  background-color: rgba(139, 27, 27, 0.533);
+  background-color: rgba(214, 29, 29, 0.849);
 }
 
 .slide-2 {
-  background-color: rgba(32, 90, 145, 0.521);
+  background-color: rgba(32, 90, 145, 0.664);
+}
+
+.slide-3 {
+  background-color: rgba(11, 87, 30, 0.664);
 }
 
 .first-position {
@@ -392,12 +400,13 @@ a:hover {
           transform: translate3d(-679px, 0px, 0px);
 }
 
-.slider-button__wrapper {
-  margin-top: -35px;
+.third-position {
+  -webkit-transform: translate3d(-1358px, 0px, 0px);
+          transform: translate3d(-1358px, 0px, 0px);
 }
 
-#button {
-  background-color: none;
+.slider-button__wrapper {
+  margin-top: 25px;
 }
 
 .projects__slider-menu {
