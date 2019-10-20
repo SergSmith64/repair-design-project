@@ -484,39 +484,76 @@ a:hover {
 }
 
 .types-of-repair {
+  padding: 30px;
+}
+
+.types-of-repair h3 {
+  color: #131313;
+}
+
+.types-of-repair__wrapper {
+  background-color: #FFF;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 30px;
-  background-color: rgba(167, 224, 101, 0.8);
+  margin-top: 30px;
 }
 
-.types-of-repair__info-redecorating {
+.types-of-repair__redecorating {
   background: red url("/assets/img/info-redecorating-small.jpg") no-repeat center top;
-  background-size: 392px 421px;
+  width: 392px;
+  height: auto;
+  padding: 20px;
+  margin: 3px;
 }
 
-.types-of-repair__info-overhaul {
+.types-of-repair__overhaul {
   background: blue url("/assets/img/info-overhaul-small.jpg") no-repeat center top;
+  width: 392px;
+  height: auto;
+  padding: 20px;
+  margin: 3px;
 }
 
-.types-of-repair__info-designer {
+.types-of-repair__designer {
   background: green url("/assets/img/info-designer-small.jpg") no-repeat center top;
+  width: 392px;
+  height: auto;
+  padding: 20px;
+  margin: 3px;
+}
+
+.types-of-repair__info {
+  background-color: #fff;
+  margin-top: 280px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-bottom: 0px;
+  padding: 24px 24px 0 24px;
+  color: #000;
+}
+
+.types-of-repair__info p {
+  color: #131313;
+  font-family: Yeseva One;
+  font-size: 18px;
+  text-align: left;
+}
+
+.types-of-repair__info ul {
+  margin-bottom: 16px;
 }
 
 .form-main {
-  padding-top: 20px;
-  padding-bottom: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-right: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .form-main__building {
@@ -525,11 +562,37 @@ a:hover {
 }
 
 .form-main__form {
-  background-color: #131313;
-  color: #FFF;
-  padding: 25px;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
+}
+
+.form-main__form p {
+  color: #E3B873;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.form-main__form .text-center {
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  margin-left: 35px;
+}
+
+#form_2 {
+  background-color: #131313;
+  color: #ffffff;
+  padding: 35px;
+}
+
+.head-text {
+  color: #FFF;
+  font-family: 'FuturaBookC', sans-serif;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: center;
 }
 
 .wildest-fantasies {
