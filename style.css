@@ -209,7 +209,7 @@ a:hover {
 }
 
 .header {
-  background: red url("./assets/img/back-1-room.jpg") no-repeat center top;
+  background: url("./assets/img/back-1-room.jpg") no-repeat center top;
   background-size: cover;
   height: 85vh;
   -ms-flex-preferred-size: 95%;
@@ -503,7 +503,7 @@ a:hover {
 }
 
 .types-of-repair__redecorating {
-  background: red url("/assets/img/info-redecorating-small.jpg") no-repeat center top;
+  background: url("/assets/img/info-redecorating-small.jpg") no-repeat center top;
   width: 392px;
   height: auto;
   padding: 20px;
@@ -511,7 +511,7 @@ a:hover {
 }
 
 .types-of-repair__overhaul {
-  background: blue url("/assets/img/info-overhaul-small.jpg") no-repeat center top;
+  background: url("/assets/img/info-overhaul-small.jpg") no-repeat center top;
   width: 392px;
   height: auto;
   padding: 20px;
@@ -519,7 +519,7 @@ a:hover {
 }
 
 .types-of-repair__designer {
-  background: green url("/assets/img/info-designer-small.jpg") no-repeat center top;
+  background: url("/assets/img/info-designer-small.jpg") no-repeat center top;
   width: 392px;
   height: auto;
   padding: 20px;
@@ -528,6 +528,8 @@ a:hover {
 
 .types-of-repair__info {
   background-color: #fff;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   margin-top: 280px;
   margin-left: 25px;
   margin-right: 25px;
@@ -595,11 +597,28 @@ a:hover {
   text-align: center;
 }
 
+.form-main__down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 20px;
+}
+
+.form-main__down span {
+  font-size: 22px;
+  line-height: 28px;
+  color: #E3B873;
+  margin-top: -15px;
+  margin-left: 10px;
+}
+
 .wildest-fantasies {
   padding-top: 400px;
   padding-bottom: 630px;
   position: relative;
-  background-color: lightyellow;
 }
 
 .wildest-fantasies-wrapper {
@@ -608,7 +627,6 @@ a:hover {
   width: 100%;
   height: 100%;
   top: 5px;
-  background-color: rgba(47, 100, 214, 0.918);
 }
 
 .wildest-fantasies-wrapper-text {
@@ -630,7 +648,7 @@ a:hover {
 }
 
 .design-project {
-  margin-top: 50px;
+  margin-top: 90px;
   margin-bottom: -400px;
 }
 
@@ -646,6 +664,7 @@ a:hover {
 
 .design-project__wrapper {
   background-color: #FFF;
+  padding-top: 14px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -681,6 +700,8 @@ a:hover {
 
 .design-project__info {
   background-color: #fff;
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   margin-top: 280px;
   margin-left: 25px;
   margin-right: 25px;
