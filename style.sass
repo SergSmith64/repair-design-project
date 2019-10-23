@@ -557,6 +557,7 @@ main
 	width: 770px
 	margin-top: 90px
 	margin-bottom: 130px
+	background-color: rgba(206, 39, 39, 0.438);
 	display: flex
 	flex-direction: column
 	align-items: center
@@ -608,9 +609,93 @@ main
 .input_wrapper input::placeholder
 	color: #ffffff
 
+
+
 @media (max-width: 768px)
 	.input_wrapper input
 		width: 100%
+
+@media (max-width: 768px)
+	.online_button--dt
+		display: none
+
+.online_button--mob
+	width: 340px
+	margin-top: 30px
+
+@media (min-width: 769px)
+	.online_button--mob
+		display: none
+
+
+
+.cover-button
+	margin-right: 20px
+
+@media screen and (max-width: 550px)
+	.cover-button
+		width: 100%
+		margin-right: 0
+		margin-top: 25px
+
+.cover-button--submit
+	background-color: rgba(255, 255, 255, 0)
+	border: 1px solid #ffffff
+
+.cover-button--submit:hover
+	background-color: rgba(255, 255, 255, 0.2)
+
+.cover-button--submit:active
+	background-color: rgba(255, 255, 255, 0.2)
+
+@media (max-width: 375px)
+	.cover-button--submit
+		margin-top: 26px
+
+
+agree
+	display: block
+	position: relative
+	margin-top: 33px
+	padding-left: 30px
+	padding-bottom: 2px
+	cursor: pointer
+	font-family: "FuturaBookC"
+	font-size: 16px
+	line-height: 22px
+	color: #181818
+
+
+@media (max-width: 768px)
+	.agree
+		color: #ffffff
+
+.agree input
+	position: absolute
+	opacity: 0
+	cursor: pointer
+	height: 0
+	width: 0
+
+.agree .agree-checkmark
+	position: absolute
+	top: 1px
+	left: 0
+	height: 18px
+	width: 18px
+	background-color: #E3B873
+
+.agree .agree-checkmark::after
+	content: url("./assets/img/check-sign.svg")
+	position: absolute
+	top: -3px
+	left: 4px
+	display: none
+
+.agree input:checked ~ .agree-checkmark::after
+	display: block
+
+
 
 // __________________________
 // #form_1
