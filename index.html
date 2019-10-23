@@ -165,37 +165,54 @@
 
       <section class="online-control">
         <div class="online-control__wrapper">
-          <div class="online-control__top">
-              <h3>ONLINE CONTROL</h3>
-              <div class="icon-center">
-                  <img src="./assets/img/icon-video-control.png" alt="icon-video-control">
-              </div>
-
-              <!-- <div class="online-control__button-center">
-                <a href="#"><img src="./assets/img/button-video.png" alt="button-video"></a>
-              </div> -->
-
+              
+          <div class="icon-center">
+            <h3>ONLINE CONTROL</h3>
+            <img src="./assets/img/icon-video-control.png" alt="icon-video-control">
           </div>
-        </div>
+          
 <!-- ____ video ____ -->
-<div class="online_video">
-  <button class="online_video-play"><img src="./assets/img/icon-play.svg" alt="icon"></button>
-  <video src="" poster="./assets/img/online-control-620.png">
-    Your browser does not support the video tag.
-  </video>
-</div>
+          <div class="online_video">
+            <button class="online_video-play"><img src="./assets/img/icon-play.svg" alt="icon"></button>
+            <video src="" poster="./assets/img/online-control-room.jpg">
+              Your browser does not support the video tag.
+            </video>
+          </div>
 <!-- _______________ -->
-        <div class="online-control__text">
-            <div class="icon-center">
+        </div><!-- /online-control__wrapper -->
+
+          <div class="icon-center">
                 <img src="./assets/img/yellow-line.png" alt="line">
-              </div>
-              <div class="text-center">
-                  <p>At each facility, a camera is installed that broadcasts the progress of work on the clock. <br>
+          </div>
+          <div class="text-center">
+            <p>At each facility, a camera is installed that broadcasts the progress of work on the clock. <br>
                       At any time, you can go to our website and monitor the progress of work in your <br>
                       apartment. You can watch the live broadcast from one of our facilities!<br>
                       Leave a request below and you will receive a link to the broadcast.</p>
-              </div>
-              <form id="form_1">
+          </div>
+<!-- ____________________ -->
+
+<!-- ФОРМА _______________ -->
+<form action="#" class="online_form">
+    <div class="online_form-block">
+      <div class="input_wrapper">
+        <label class="label_text" for="name">Name</label>
+        <input name="name" placeholder="What is your name:" type="text" required>
+      </div>
+      <div class="input_wrapper">
+        <label for="phone">Phone</label>
+        <input name="phone" placeholder="Your phone number" type="text" required>
+      </div>
+      <input name="submit" type="submit" value="submit" class="button online_button--dt">
+    </div>
+    <label class="agree">I agree to the processing of personal data
+      <input name="agree" type="checkbox" class="agree-input">
+      <span class="agree-checkmark"></span>
+    </label>
+    <input name="submit" type="submit" value="submit" class="button online_button--mob">
+  </form>
+<!-- _______________ -->
+              <!-- <form id="form_1">
                 <div class="form_1__wrapper">
                     <div class="form-item">
                       <input type="text" name="name" placeholder="Name" required />
@@ -209,15 +226,13 @@
                 </div>
                 <div class="form_1__wrapper">
                   <div class="text-center">
-                    <!-- <p><input type="checkbox" name="option1" value="a1" checked>I agree to the processing of personal data</p> -->
                     <p><input type="checkbox" name="option1" value="a1" required>  I agree to the processing of personal data</p>
                   </div>
-                </div>
-                  
-                  <!-- <a href="#" class="btn btn__slider">Calculate the cost</a> -->
-                  
-                </form>
-        </div>
+                </div>  
+              </form> -->
+
+                <!-- <a href="#" class="btn btn__slider">Calculate the cost</a> -->
+
       </section>
 
 <!-- ____ block_4 ___ -->
