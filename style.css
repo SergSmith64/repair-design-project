@@ -526,6 +526,32 @@ a:hover {
   height: 12px;
 }
 
+.form-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: pink;
+}
+
+form {
+  padding: 2em;
+}
+
+.form-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 1.5em;
+  border: 2px solid blue;
+}
+
+.form-wrapper label {
+  display: block;
+  text-align: left;
+  font-size: 15px;
+  background-color: #FF0000;
+}
+
 .online_form {
   width: 770px;
   margin-top: 90px;
