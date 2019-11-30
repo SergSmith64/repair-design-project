@@ -34,12 +34,10 @@ body
 	border: 1px solid $base-color-sand
 	cursor: pointer
 	box-shadow: 0px 15px 15px rgba(227, 184, 115, 0.15)
-
-.button:hover
-	opacity: 0.8
-
-.button:active
-	opacity: 0.8
+	&:hover
+		opacity: 0.8
+	&:active
+		opacity: 0.8
 
 .agree
 	display: block
@@ -83,31 +81,29 @@ body
 	flex-direction: column
 	justify-content: space-between
 	height: 45px
+	label
+		font-family: "FuturaBook"
+		font-size: 15px
+		line-height: 20px
+		color: rgba(54, 54, 54, 0.5)
+	input
+		width: 230px
+		height: 30px
+		font-family: "FuturaBook"
+		font-size: 18px
+		color: #363636
+		background-color: transparent
+		outline: 0
+		border: 0
+		border-bottom: 1px solid #c3c3c3
 
 @media (max-width: 768px)
 	.input_wrapper
 		margin-top: 60px
 
-.input_wrapper label
-	font-family: "FuturaBook"
-	font-size: 15px
-	line-height: 20px
-	color: rgba(54, 54, 54, 0.5)
-
 @media (max-width: 768px)
 	.input_wrapper label
 		color: rgba(255, 255, 255, 0.5)
-
-.input_wrapper input
-	width: 230px
-	height: 30px
-	font-family: "FuturaBook"
-	font-size: 18px
-	color: #363636
-	background-color: transparent
-	outline: 0
-	border: 0
-	border-bottom: 1px solid #c3c3c3
 
 .input_wrapper input::-webkit-input-placeholder
 	color: #ffffff
@@ -171,7 +167,6 @@ body
 		font-size: 12px
 		line-height: 14px
 
-
 .nav_main
 	width: 47%
 
@@ -195,9 +190,8 @@ body
 .nav_main-list
 	display: flex
 	justify-content: space-between
-
-.nav_main-list li
-	list-style-type: none
+	li
+		list-style-type: none
 
 .nav_main-href
 	display: block
@@ -222,12 +216,10 @@ body
 	color: $base-color-sand
 	text-decoration: none
 	border-bottom: 1px solid $base-color-sand
-
-.telephone:hover
-	border-bottom-color: transparent
-
-.telephone:active
-	border-bottom-color: transparent
+	&:hover
+		border-bottom-color: transparent
+	&:active
+		border-bottom-color: transparent
 
 @media (max-width: 375px)
 	.telephone
@@ -325,12 +317,10 @@ body
 .cover-button--submit
 	background-color: rgba(255, 255, 255, 0)
 	border: 1px solid #ffffff
-
-.cover-button--submit:hover
-	background-color: rgba(255, 255, 255, 0.2)
-
-.cover-button--submit:active
-	background-color: rgba(255, 255, 255, 0.2)
+	&:hover
+		background-color: rgba(255, 255, 255, 0.2)
+	&:active
+		background-color: rgba(255, 255, 255, 0.2)
 
 @media (max-width: 375px)
 	.cover-button--submit
@@ -346,8 +336,6 @@ body
 	line-height: 53px
 	text-transform: uppercase
 	color: #ffffff
-
-.cover_h2
 	span
 		color: $base-color-sand
 
@@ -388,12 +376,10 @@ body
 	text-decoration: none
 	color: #ffffff
 	background-color: $base-color-dark
-
-.scroll:hover
-	opacity: 0.7
-
-.scroll:active
-	opacity: 0.7
+	&:hover
+		opacity: 0.7
+	&:active
+		opacity: 0.7
 
 @media (max-width: 1024px)
 	.scroll
@@ -527,12 +513,10 @@ body
 	border-radius: 50%
 	text-decoration: none
 	opacity: 0.3
-
-.proj_controls-dot:hover
-	opacity: 1
-
-.proj_controls-dot:active
-	opacity: 1
+	&:hover
+		opacity: 1
+	&:active
+		opacity: 1
 
 .proj_controls-dot--active
 	opacity: 1
@@ -609,12 +593,10 @@ body
 	border: 0
 	outline: 0
 	cursor: pointer
-
-.proj_slider-button:hover
-	opacity: 0.8
-
-.proj_slider-button:active
-	opacity: 0.8
+	&:hover
+		opacity: 0.8
+	&:active
+		opacity: 0.8
 
 @media (max-width: 768px)
 	.proj_slider-button
@@ -664,14 +646,12 @@ body
 	text-decoration: none
 	padding-bottom: 2px
 	border-bottom: 1px solid transparent
-
-.proj_nav-list_el:hover
-	color: $base-color-sand
-	border-bottom: 1px solid $base-color-sand
-
-.proj_nav-list_el:active
-	color: $base-color-sand
-	border-bottom: 1px solid $base-color-sand
+	&:hover
+		color: $base-color-sand
+		border-bottom: 1px solid $base-color-sand
+	&:active
+		color: $base-color-sand
+		border-bottom: 1px solid $base-color-sand
 
 .proj_nav-list_el--active
 	color: $base-color-sand
@@ -736,17 +716,13 @@ body
 	background-color: $base-color-sand
 	cursor: pointer
 	z-index: 10
-
-
-.online_video-play:hover
-	opacity: 0.8
-
-.online_video-play:active
-	opacity: 0.8
-
-.online_video-play img
-	width: 28px
-	height: 28px
+	&:hover
+		opacity: 0.8
+	&:active
+		opacity: 0.8
+	img
+		width: 28px
+		height: 28px
 
 @media (max-width: 768px)
 	.online_video-play
@@ -1287,12 +1263,10 @@ body
 	border: 0
 	outline: 0
 	cursor: pointer
-
-.fantasies_slider-button:hover
-	opacity: 0.8
-
-.fantasies_slider-button:active
-	opacity: 0.8
+	&:hover
+		opacity: 0.8
+	&:active
+		opacity: 0.8
 
 .fantasies_slider-button--left
 	left: 15px
@@ -1326,14 +1300,13 @@ body
 	display: flex
 	flex-direction: column
 	align-items: center
-
-.levels_title p
-	width: 60%
-	font-family: "FuturaBook"
-	font-size: 20px
-	line-height: 27px
-	text-align: center
-	color: #363636
+	p
+		width: 60%
+		font-family: "FuturaBook"
+		font-size: 20px
+		line-height: 27px
+		text-align: center
+		color: #363636
 
 @media (max-width: 1024px)
 	.levels_title p
@@ -1500,22 +1473,18 @@ body
 .six_steps_controls-arr_left
 	margin-right: 29px
 	opacity: 0.8
-
-.six_steps_controls-arr_left:hover
-	opacity: 1
-
-.six_steps_controls-arr_left:active
-	opacity: 1
+	&:hover
+		opacity: 1
+	&:active
+		opacity: 1
 
 .six_steps_controls-arr_right
 	margin-left: 11px
 	opacity: 0.8
-
-.six_steps_controls-arr_right:hover
-	opacity: 1
-
-.six_steps_controls-arr_right:active
-	opacity: 1
+	&:hover
+		opacity: 1
+	&:active
+		opacity: 1
 
 .six_steps_controls-dot
 	display: block
@@ -1527,12 +1496,10 @@ body
 	border-radius: 50%
 	text-decoration: none
 	opacity: 0.3
-
-.six_steps_controls-dot:hover
-	opacity: 1
-
-.six_steps_controls-dot:active
-	opacity: 1
+	&:hover
+		opacity: 1
+	&:active
+		opacity: 1
 
 .six_steps_controls-dot--active
 	opacity: 1
@@ -1630,13 +1597,12 @@ body
 	display: flex
 	flex-direction: column
 	align-items: center
-
-.team_title p
-	font-family: "FuturaBook"
-	font-size: 20px
-	line-height: 27px
-	text-align: center
-	color: #ffffff
+	p
+		font-family: "FuturaBook"
+		font-size: 20px
+		line-height: 27px
+		text-align: center
+		color: #ffffff
 
 @media (max-width: 768px)
 	.team_title p

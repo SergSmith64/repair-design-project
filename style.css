@@ -118,23 +118,11 @@ body {
   height: 45px;
 }
 
-@media (max-width: 768px) {
-  .input_wrapper {
-    margin-top: 60px;
-  }
-}
-
 .input_wrapper label {
   font-family: "FuturaBook";
   font-size: 15px;
   line-height: 20px;
   color: rgba(54, 54, 54, 0.5);
-}
-
-@media (max-width: 768px) {
-  .input_wrapper label {
-    color: rgba(255, 255, 255, 0.5);
-  }
 }
 
 .input_wrapper input {
@@ -147,6 +135,18 @@ body {
   outline: 0;
   border: 0;
   border-bottom: 1px solid #c3c3c3;
+}
+
+@media (max-width: 768px) {
+  .input_wrapper {
+    margin-top: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .input_wrapper label {
+    color: rgba(255, 255, 255, 0.5);
+  }
 }
 
 .input_wrapper input::-webkit-input-placeholder {
